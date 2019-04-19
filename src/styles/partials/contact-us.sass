@@ -1,0 +1,34 @@
+.m-contact-us
+    background: url("../img/bitmap.png") no-repeat center center
+    background-size: cover
+    padding: 125px 0
+
+    .title
+        color: $text-color-white
+
+    .contact-us
+        &__input,
+        &__textarea
+            background: transparent
+            border: 1px solid $color-accent-light
+            display: block
+            margin: 0 0 20px
+            width: 100%
+            border-radius: 4px
+            padding: 0 3px 0 28px
+            font-size: 14px
+            color: $color-accent-light
+            line-height: 2.14
+
+            &::placeholder
+                color: rgba($color-accent-light, 0.8)
+
+        &__input
+            height: 30px
+
+        &__textarea
+            height: 130px
+            resize: none
+
+    .btn
+        width: 100%
